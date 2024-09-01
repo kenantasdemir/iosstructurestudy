@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7997774122E7277800447353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997774022E7277800447353 /* AppDelegate.swift */; };
+		7997774322E7277800447353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997774222E7277800447353 /* ViewController.swift */; };
+		7997774622E7277800447353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7997774422E7277800447353 /* Main.storyboard */; };
+		7997774822E7277900447353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7997774722E7277900447353 /* Assets.xcassets */; };
+		7997774B22E7277900447353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7997774922E7277900447353 /* LaunchScreen.storyboard */; };
+		7997775622E7277900447353 /* Navigation_Controller_CalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997775522E7277900447353 /* Navigation_Controller_CalismasiTests.swift */; };
+		7997776122E7277900447353 /* Navigation_Controller_CalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997776022E7277900447353 /* Navigation_Controller_CalismasiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7997775222E7277900447353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7997773522E7277800447353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7997773C22E7277800447353;
+			remoteInfo = "Navigation Controller Calismasi";
+		};
+		7997775D22E7277900447353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7997773522E7277800447353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7997773C22E7277800447353;
+			remoteInfo = "Navigation Controller Calismasi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7997773D22E7277800447353 /* Navigation Controller Calismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller Calismasi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7997774022E7277800447353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7997774222E7277800447353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7997774522E7277800447353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7997774722E7277900447353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7997774A22E7277900447353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7997774C22E7277900447353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7997775122E7277900447353 /* Navigation Controller CalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation Controller CalismasiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7997775522E7277900447353 /* Navigation_Controller_CalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Controller_CalismasiTests.swift; sourceTree = "<group>"; };
+		7997775722E7277900447353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7997775C22E7277900447353 /* Navigation Controller CalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation Controller CalismasiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7997776022E7277900447353 /* Navigation_Controller_CalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Controller_CalismasiUITests.swift; sourceTree = "<group>"; };
+		7997776222E7277900447353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7997773A22E7277800447353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997774E22E7277900447353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997775922E7277900447353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7997773422E7277800447353 = {
+			isa = PBXGroup;
+			children = (
+				7997773F22E7277800447353 /* Navigation Controller Calismasi */,
+				7997775422E7277900447353 /* Navigation Controller CalismasiTests */,
+				7997775F22E7277900447353 /* Navigation Controller CalismasiUITests */,
+				7997773E22E7277800447353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7997773E22E7277800447353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7997773D22E7277800447353 /* Navigation Controller Calismasi.app */,
+				7997775122E7277900447353 /* Navigation Controller CalismasiTests.xctest */,
+				7997775C22E7277900447353 /* Navigation Controller CalismasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7997773F22E7277800447353 /* Navigation Controller Calismasi */ = {
+			isa = PBXGroup;
+			children = (
+				7997774022E7277800447353 /* AppDelegate.swift */,
+				7997774222E7277800447353 /* ViewController.swift */,
+				7997774422E7277800447353 /* Main.storyboard */,
+				7997774722E7277900447353 /* Assets.xcassets */,
+				7997774922E7277900447353 /* LaunchScreen.storyboard */,
+				7997774C22E7277900447353 /* Info.plist */,
+			);
+			path = "Navigation Controller Calismasi";
+			sourceTree = "<group>";
+		};
+		7997775422E7277900447353 /* Navigation Controller CalismasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7997775522E7277900447353 /* Navigation_Controller_CalismasiTests.swift */,
+				7997775722E7277900447353 /* Info.plist */,
+			);
+			path = "Navigation Controller CalismasiTests";
+			sourceTree = "<group>";
+		};
+		7997775F22E7277900447353 /* Navigation Controller CalismasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7997776022E7277900447353 /* Navigation_Controller_CalismasiUITests.swift */,
+				7997776222E7277900447353 /* Info.plist */,
+			);
+			path = "Navigation Controller CalismasiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7997773C22E7277800447353 /* Navigation Controller Calismasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7997776522E7277900447353 /* Build configuration list for PBXNativeTarget "Navigation Controller Calismasi" */;
+			buildPhases = (
+				7997773922E7277800447353 /* Sources */,
+				7997773A22E7277800447353 /* Frameworks */,
+				7997773B22E7277800447353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navigation Controller Calismasi";
+			productName = "Navigation Controller Calismasi";
+			productReference = 7997773D22E7277800447353 /* Navigation Controller Calismasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7997775022E7277900447353 /* Navigation Controller CalismasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7997776822E7277900447353 /* Build configuration list for PBXNativeTarget "Navigation Controller CalismasiTests" */;
+			buildPhases = (
+				7997774D22E7277900447353 /* Sources */,
+				7997774E22E7277900447353 /* Frameworks */,
+				7997774F22E7277900447353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7997775322E7277900447353 /* PBXTargetDependency */,
+			);
+			name = "Navigation Controller CalismasiTests";
+			productName = "Navigation Controller CalismasiTests";
+			productReference = 7997775122E7277900447353 /* Navigation Controller CalismasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7997775B22E7277900447353 /* Navigation Controller CalismasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7997776B22E7277900447353 /* Build configuration list for PBXNativeTarget "Navigation Controller CalismasiUITests" */;
+			buildPhases = (
+				7997775822E7277900447353 /* Sources */,
+				7997775922E7277900447353 /* Frameworks */,
+				7997775A22E7277900447353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7997775E22E7277900447353 /* PBXTargetDependency */,
+			);
+			name = "Navigation Controller CalismasiUITests";
+			productName = "Navigation Controller CalismasiUITests";
+			productReference = 7997775C22E7277900447353 /* Navigation Controller CalismasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7997773522E7277800447353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = info;
+				TargetAttributes = {
+					7997773C22E7277800447353 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7997775022E7277900447353 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7997773C22E7277800447353;
+					};
+					7997775B22E7277900447353 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7997773C22E7277800447353;
+					};
+				};
+			};
+			buildConfigurationList = 7997773822E7277800447353 /* Build configuration list for PBXProject "Navigation Controller Calismasi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7997773422E7277800447353;
+			productRefGroup = 7997773E22E7277800447353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7997773C22E7277800447353 /* Navigation Controller Calismasi */,
+				7997775022E7277900447353 /* Navigation Controller CalismasiTests */,
+				7997775B22E7277900447353 /* Navigation Controller CalismasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7997773B22E7277800447353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7997774B22E7277900447353 /* LaunchScreen.storyboard in Resources */,
+				7997774822E7277900447353 /* Assets.xcassets in Resources */,
+				7997774622E7277800447353 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997774F22E7277900447353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997775A22E7277900447353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7997773922E7277800447353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7997774322E7277800447353 /* ViewController.swift in Sources */,
+				7997774122E7277800447353 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997774D22E7277900447353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7997775622E7277900447353 /* Navigation_Controller_CalismasiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997775822E7277900447353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7997776122E7277900447353 /* Navigation_Controller_CalismasiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7997775322E7277900447353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7997773C22E7277800447353 /* Navigation Controller Calismasi */;
+			targetProxy = 7997775222E7277900447353 /* PBXContainerItemProxy */;
+		};
+		7997775E22E7277900447353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7997773C22E7277800447353 /* Navigation Controller Calismasi */;
+			targetProxy = 7997775D22E7277900447353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7997774422E7277800447353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7997774522E7277800447353 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7997774922E7277900447353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7997774A22E7277900447353 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7997776322E7277900447353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7997776422E7277900447353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7997776622E7277900447353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Navigation Controller Calismasi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7997776722E7277900447353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Navigation Controller Calismasi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7997776922E7277900447353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Navigation Controller CalismasiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation Controller Calismasi.app/Navigation Controller Calismasi";
+			};
+			name = Debug;
+		};
+		7997776A22E7277900447353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Navigation Controller CalismasiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation Controller Calismasi.app/Navigation Controller Calismasi";
+			};
+			name = Release;
+		};
+		7997776C22E7277900447353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Navigation Controller CalismasiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Navigation Controller Calismasi";
+			};
+			name = Debug;
+		};
+		7997776D22E7277900447353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Navigation Controller CalismasiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Navigation Controller Calismasi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7997773822E7277800447353 /* Build configuration list for PBXProject "Navigation Controller Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7997776322E7277900447353 /* Debug */,
+				7997776422E7277900447353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7997776522E7277900447353 /* Build configuration list for PBXNativeTarget "Navigation Controller Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7997776622E7277900447353 /* Debug */,
+				7997776722E7277900447353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7997776822E7277900447353 /* Build configuration list for PBXNativeTarget "Navigation Controller CalismasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7997776922E7277900447353 /* Debug */,
+				7997776A22E7277900447353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7997776B22E7277900447353 /* Build configuration list for PBXNativeTarget "Navigation Controller CalismasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7997776C22E7277900447353 /* Debug */,
+				7997776D22E7277900447353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7997773522E7277800447353 /* Project object */;
+}

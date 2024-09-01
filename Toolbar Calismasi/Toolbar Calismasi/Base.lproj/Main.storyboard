@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Toolbar_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q6G-vc-Vew">
+                                <rect key="frame" x="0.0" y="809" width="414" height="53"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="S9N-un-E7y">
+                                        <color key="tintColor" red="1" green="0.13182058469999999" blue="0.00033646567799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="geriButton:" destination="BYZ-38-t0r" id="P3F-cr-eUY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="bKU-Ik-wnO"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="w2b-QD-kny"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="9dw-tt-M4e"/>
+                                    <barButtonItem title="Oynat" id="ObZ-bD-5gC">
+                                        <color key="tintColor" red="0.98823529409999999" green="0.12952161819999999" blue="0.94201595240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="oynatButton:" destination="BYZ-38-t0r" id="8uh-PH-Aos"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="oKe-IH-yUA"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="Kgc-kk-uh2"/>
+                                    <barButtonItem title="Item" image="navBaslik" id="oUt-Wr-qEq">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="homeButton:" destination="BYZ-38-t0r" id="dBR-dZ-aUm"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3b-eP-0De">
+                                <rect key="frame" x="92" y="224" width="230" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="H3b-eP-0De" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="4Gp-xF-jtf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q6G-vc-Vew" secondAttribute="bottom" id="AfG-iD-RT3"/>
+                            <constraint firstItem="Q6G-vc-Vew" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ca7-Lp-VJp"/>
+                            <constraint firstItem="H3b-eP-0De" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OSo-7b-efh"/>
+                            <constraint firstItem="Q6G-vc-Vew" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t2Y-Pr-wYk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="etiket" destination="H3b-eP-0De" id="6pa-RG-YGV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="navBaslik" width="48" height="48"/>
+    </resources>
+</document>
